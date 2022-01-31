@@ -1,0 +1,20 @@
+.punkList{
+    cursor:pointer;
+    display:flex;
+    overflow-x: scroll;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.punkList::-webkit-scrollbar{
+    display: none ;
+}
+.punkList >div{
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+
+}
+.punkList > div:hover{
+    transform: scale(1);
+}
